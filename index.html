@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <title>Document</title>
+  </head>
+  <body>
+
+    <div class="card">
+      <div class="container card__container">
+        <h2 class="title">Ro'yxatdan O'tish</h2>
+        <form id="registrationForm">
+          <label for="name">Ism</label>
+          <input type="text" id="name" />
+
+          <label for="surname">Familiya</label>
+          <input type="text" id="surname" />
+
+          <label for="phone">Telefon raqami</label>
+          <input type="text" id="phone" />
+
+          <label for="email">Email</label>
+          <input type="text" id="email" />
+        </form>
+        <button class="btn" onclick="displayInfo()">Ro'yxatdan o'tish</button>
+      </div>
+    </div>
+    <div id="output" class="output"></div>
+
+    <script src="./js/app.js"></script>
+
+  </body>
+</html>
